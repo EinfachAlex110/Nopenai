@@ -1,34 +1,32 @@
-# Building LLM Apps...without OpenAI 
-Want to build LLM Apps...but without OpenAI dependencies? Well have I got the code for you my friend. In this project I walk through how to build a langchain x streamlit app using GPT4All. We start off with a simple app and then build up to a langchain PythonREPL agent. 
+## LLM Apps erstellen...ohne OpenAI
+Möchtest du LLM Apps bauen...aber ohne Abhängigkeiten von OpenAI? Nun, ich habe hier den Code für dich, mein Freund. In diesem Projekt zeige ich, wie man eine Langchain x Streamlit App mit GPT4All baut. Wir beginnen mit einer einfachen App und bauen dann einen Langchain PythonREPL Agenten auf.
 
-## See it live and in action 📺
+## Sieh es live und in Aktion 📺
 [![Tutorial](https://i.imgur.com/qBoUX8m.jpg)](https://youtu.be/5JpPo-NOq9s 'Tutorial')
 
-# Startup 🚀
-1. Create a virtual environment `python -m venv nonopenai`
-2. Activate it: 
+# Start 🚀
+1. Erstelle eine virtuelle Umgebung `python -m venv nonopenai`
+2. Aktiviere sie:
    - Windows:`.\nonopenai\Scripts\activate`
    - Mac: `source nonopenai/bin/activate`
-3. Install the GPT4All Installer using GUI based installers
+3. Installiere den GPT4All Installer mit GUI-basierten Installern
    - Windows: https://gpt4all.io/installers/gpt4all-installer-win64.exe 
    - Mac: https://gpt4all.io/installers/gpt4all-installer-darwin.dmg
    - Ubuntu: https://gpt4all.io/installers/gpt4all-installer-linux.run
-4. Download the required LLM models and take note of the PATH they're installed to
-5. Clone this repo `git clone https://github.com/nicknochnack/Nopenai`
-6. Go into the directory `cd NonOpenAI`
-7. Install the required dependencies `pip install -r requirements.txt`
-8. Update the path of the models in line 9 of `app.py` and line 5 of `app-chain.py`
-9.  Start the python agent app by running `streamlit run app.py` or the chain app by running `streamlit run app-chain.py`  
-10. Go back to my YouTube channel and like and subscribe 😉...no seriously...please! lol 
-11. The comparison app can be started by running `streamlit run app-comparison.py` before you do that though, update the base ggml download path in line 16, e.g. `BASE_PATH = 'C:/Users/User/AppData/Local/nomic.ai/GPT4All/'` and openAI api key on line 18
+4. Lade die benötigten LLM-Modelle herunter und notiere den Pfad, wo sie installiert sind
+5. Klone dieses Repo `git clone https://github.com/nicknochnack/Nopenai`
+6. Gehe in das Verzeichnis `cd NonOpenAI`
+7. Installiere die benötigten Abhängigkeiten `pip install -r requirements.txt`
+8. Aktualisiere den Pfad der Modelle in Zeile 9 von `app.py` und Zeile 5 von `app-chain.py`
+9.  Starte die Python-Agent-App mit `streamlit run app.py` oder die Chain-App mit `streamlit run app-chain.py`
+10. Kehre zu meinem YouTube-Kanal zurück und gib ein Like und abonniere 😉...nein, ernsthaft...bitte! lol
+11. Die Vergleichs-App kann gestartet werden mit `streamlit run app-comparison.py`. Bevor du das machst, aktualisiere den Basis ggml-Download-Pfad in Zeile 16, z.B. `BASE_PATH = 'C:/Users/User/AppData/Local/nomic.ai/GPT4All/'` und den OpenAI API-Schlüssel in Zeile 18
 
+# Weitere Referenzen 🔗
+<p>-<a href="https://github.com/nomic-ai/gpt4all/tree/main">GPT4All Referenz
+</a>: hauptsächlich verwendet, um zu ermitteln, wie die GPT4All-Bibliothek installiert und referenziert wird. Die Doco änderte sich häufig, zum Zeitpunkt der Programmierung war dies das aktuellste Beispiel, wie man es zum Laufen bringt.</p>
 
-# Other References 🔗
-<p>-<a href="https://github.com/nomic-ai/gpt4all/tree/main">GPT4AllReference
-</a>: mainly used to determine how to install the GPT4All library and references. Doco was changing frequently, at the time of coding this was the most up to date example of getting it running.</p>
-
-# Who, When, Why?
-👨🏾‍💻 Author: Nick Renotte <br />
+# Wer, Wann, Warum?
+👨🏾‍💻 Autor: Nick Renotte <br />
 📅 Version: 1.x<br />
-📜 License: This project is licensed under the MIT License </br>
-
+📜 Lizenz: Dieses Projekt steht unter der MIT-Lizenz </br>
